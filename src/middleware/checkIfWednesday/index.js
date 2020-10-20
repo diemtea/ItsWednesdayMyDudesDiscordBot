@@ -11,7 +11,6 @@ async function checkIfWednesday(message) {
     discordMsg: message,
   });
 
-
   if (message.author.username !== process.env.botName
       && content.indexOf('my dude') > -1
       && content.indexOf('wednesday') > -1) {
@@ -30,7 +29,7 @@ async function checkIfWednesday(message) {
       const randomVideo = videoUrls[randomVideoIndex];
 
       message.reply(
-        `It is Wednesday my dude! \n eeeeeeeAAAAAhhhhhahahHAHahAHHAhAHHAhHAhAhHAhHHAAAAAAAAAA \n  ${randomVideo}`,
+        `it is Wednesday my dude! \n \n ₐₐₐₐaaaaaAAAAAAAÁ͔̤͔͍̳̔͠A̸̙͍̻̓̌ͥA̟̖ͧ́A̺͓͔̬͕͚͗̃͞A͇̰̣̅̐̔͗͢Āͦ̿A̗͙͉ͣ̚͟A͖̯͙͖͉̮͂͜ͅA̫̫̜̺͈ͯ̈̍ͦ͜Ä̭̲͖̼̙͈̣̣͌͢H̨̖̟̺͍͖̹̪ͣ͛ͫH̴͖̜ͧͮH̪̳̣͕̦̹̊͟ᴴ̴̖͕̤̰̬̘̆̔ͩ̔ᴴ̶͉̠͔̰̲̤͇͎̇͊ᴴ̨̞̖̘̔̓͒̏ \n  ${randomVideo}`,
       );
       log({
         level: 'debug',
@@ -38,7 +37,7 @@ async function checkIfWednesday(message) {
         discordMsg: message,
       });
     } else {
-      message.reply("It's NOT Wednesday my dude :(");
+      message.reply("it is NOT Wednesday my dude :(");
     }
   } else {
     log({

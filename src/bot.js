@@ -14,7 +14,16 @@ const botMiddleware = new Middleware();
 
 client.on('ready', () => {
   console.log(`Started on: ${new Date()}`);
-
+  
+  //set default status for bot
+  client.user.setPresence({
+    status: "idle",
+    game: {
+        name: "lofi beats to cure my depression",
+        type: "LISTENING" //PLAYING: WATCHING: LISTENING: STREAMING:
+    }
+  });
+  
   startJobs();
   botMiddleware.add(checkIfWednesday);
   botMiddleware.add(getWedYoutubeVideo);

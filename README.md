@@ -6,8 +6,6 @@
 
 Discord Bot that will tell a channel that it is Wednesday and will link a "It's Wednesday my dudes" meme
 
-[Add The ItsWednesdayMyDudes Bot to your server](https://discordapp.com/oauth2/authorize?&client_id=403577986504196096&scope=bot&permissions=0)
-
 ## Features
 
 * Listens for "my dude" and
@@ -15,13 +13,18 @@ Discord Bot that will tell a channel that it is Wednesday and will link a "It's 
   * "video" and will post a frog meme video
 * Will post that it is Wednesday on Wednesday
 
+## Forked Updates
+
+* Bot status/activity updates based on whether it's Wednesday or not
+* Improved responses to keywords
+
 ### Examples
 
 #### Checking if Wednesday
 
 **User "bob" Types**: `My dude, is it Wednesday?`
 
-**Response**: `@bob, It is Wednesday my dude! eeeeeeeAAAAAhhhhhahahHAHahAHHAhAHHAhHAhAhHAhHHAAAAAAAAAA https://www.youtube.com/watch?v=fyJGKEswuSc`
+**Response**: `@bob, It is Wednesday my dude! ₐₐₐₐaaaaaAAAAAAAÁ͔̤͔͍̳̔͠A̸̙͍̻̓̌ͥA̟̖ͧ́A̺͓͔̬͕͚͗̃͞A͇̰̣̅̐̔͗͢Āͦ̿A̗͙͉ͣ̚͟A͖̯͙͖͉̮͂͜ͅA̫̫̜̺͈ͯ̈̍ͦ͜Ä̭̲͖̼̙͈̣̣͌͢H̨̖̟̺͍͖̹̪ͣ͛ͫH̴͖̜ͧͮH̳̣͕̦̹̊͟ᴴ̴̖͕̤̰̬̘̆̔ͩ̔ᴴ̶͉̠͔̰̲̤͇͎̇͊ᴴ̨̞̖̘̔̓͒̏  https://www.youtube.com/watch?v=fyJGKEswuSc`
 
 #### Asking for Wednesday Video
 
@@ -87,10 +90,6 @@ NodeJS gets time from the server it is running on. So if you want an accurate We
 ## Contributing
 
 Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/brooksbecton/ItsWednesdayMyDudesDiscordBot/tags).
 
 ## Authors
 

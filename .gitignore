@@ -59,3 +59,9 @@ typings/
 
 coverge/*
 build/
+
+# data folder
+data/
+.flowconfig
+.eslintrc
+.eslintignore
