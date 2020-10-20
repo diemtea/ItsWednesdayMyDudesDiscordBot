@@ -8,7 +8,7 @@ Discord Bot that will tell a channel that it is Wednesday and will link a "It's 
 
 ## Features
 
-* Listens for "my dude" and
+* Listens for "my dude" and 
   * "wednesday" and will tell you if it is Wednesday
   * "video" and will post a frog meme video
 * Will post that it is Wednesday on Wednesday
